@@ -1,0 +1,30 @@
+# secrets — never commit
+.env
+typed-mcp/
+
+# machine-specific config (see config.example.json)
+config.json
+config-before-*.json
+
+# runtime state / artifacts (27GB+ of job data lives here)
+state.json
+bridge.log
+bridge.log.*
+STOP
+.daemon.lock
+locks/
+outputs/
+workdir/
+jobs/
+workspaces/
+workspaces.json
+cleanup-cursor.json
+__pycache__/
+*.pyc
+
+# point-in-time backups created during upgrades
+*backup-*/
+
+# agent-managed releases carry their own per-machine config
+releases/*/config.json
+releases/*/__pycache__/

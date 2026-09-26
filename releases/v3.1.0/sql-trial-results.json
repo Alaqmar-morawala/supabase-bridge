@@ -1,0 +1,16 @@
+{
+  "previous_trial": "passed and rolled back",
+  "checks": [
+    "identical key same id",
+    "dedup survives row deletion",
+    "expired result envelope",
+    "changed request key rejected",
+    "negative length rejected",
+    "string boolean rejected",
+    "unknown field rejected",
+    "queued request immutable",
+    "terminal reset rejected",
+    "RLS hides ledger"
+  ],
+  "latest_guard_changes": "checksum verified again before commit"
+}

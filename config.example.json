@@ -1,0 +1,17 @@
+{
+  "poll_interval_sec": 3,
+  "exec_timeout_sec": 600,
+  "max_per_poll": 10,
+  "output_max_chars": 1000000,
+  "claim_grace_sec": 0,
+  "orphan_grace_sec": 86400,
+  "workdir": "/path/to/supabase-bridge/workdir",
+  "default_workspace": "main",
+  "workspaces": {
+    "main": "/path/to/your/workspace"
+  },
+  "max_parallel_jobs": 2,
+  "min_free_bytes": 268435456,
+  "job_memory_max": "32G",
+  "job_tasks_max": 4096
+}

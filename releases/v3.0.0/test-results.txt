@@ -1,0 +1,18 @@
+test_01_job_survives_submitter_exit (__main__.DurableTests.test_01_job_survives_submitter_exit) ... ok
+test_02_file_job (__main__.DurableTests.test_02_file_job) ... ok
+test_03_output_cursor_and_cancel (__main__.DurableTests.test_03_output_cursor_and_cancel) ... ok
+test_04_timeout (__main__.DurableTests.test_04_timeout) ... ok
+test_05_write_lock_serializes (__main__.DurableTests.test_05_write_lock_serializes) ... ok
+test_06_pipe_rejected (__main__.DurableTests.test_06_pipe_rejected) ... ok
+test_atomic_create_edit_conflict (__main__.OpsTests.test_atomic_create_edit_conflict) ... ok
+test_git_and_worktree (__main__.OpsTests.test_git_and_worktree) ... ok
+test_large_rg_and_ignores (__main__.OpsTests.test_large_rg_and_ignores) ... ok
+test_line_and_byte_paging (__main__.OpsTests.test_line_and_byte_paging) ... ok
+test_patch (__main__.OpsTests.test_patch) ... ok
+test_retry_policy (__main__.OpsTests.test_retry_policy) ... ok
+test_workspace_resolution (__main__.OpsTests.test_workspace_resolution) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 4.485s
+
+OK

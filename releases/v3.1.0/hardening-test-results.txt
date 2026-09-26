@@ -1,0 +1,38 @@
+test_01_job_survives_submitter_exit (test_v3.DurableTests.test_01_job_survives_submitter_exit) ... ok
+test_02_file_job (test_v3.DurableTests.test_02_file_job) ... ok
+test_03_output_cursor_and_cancel (test_v3.DurableTests.test_03_output_cursor_and_cancel) ... ok
+test_04_timeout (test_v3.DurableTests.test_04_timeout) ... ok
+test_05_write_lock_serializes (test_v3.DurableTests.test_05_write_lock_serializes) ... ok
+test_06_pipe_rejected (test_v3.DurableTests.test_06_pipe_rejected) ... ok
+test_atomic_create_edit_conflict (test_v3.OpsTests.test_atomic_create_edit_conflict) ... ok
+test_git_and_worktree (test_v3.OpsTests.test_git_and_worktree) ... ok
+test_large_rg_and_ignores (test_v3.OpsTests.test_large_rg_and_ignores) ... ok
+test_line_and_byte_paging (test_v3.OpsTests.test_line_and_byte_paging) ... ok
+test_patch (test_v3.OpsTests.test_patch) ... ok
+test_retry_policy (test_v3.OpsTests.test_retry_policy) ... ok
+test_workspace_resolution (test_v3.OpsTests.test_workspace_resolution) ... ok
+test_atomic_disk_failure_preserves_original (test_hardening.HardenedTests.test_atomic_disk_failure_preserves_original) ... ok
+test_bad_configuration_rejected (test_hardening.HardenedTests.test_bad_configuration_rejected) ... ok
+test_cancel_after_receipt_preserves_success (test_hardening.HardenedTests.test_cancel_after_receipt_preserves_success) ... ok
+test_cancel_before_launch_prevents_process (test_hardening.HardenedTests.test_cancel_before_launch_prevents_process) ... ok
+test_changed_during_read_fails_not_mixed_hash (test_hardening.HardenedTests.test_changed_during_read_fails_not_mixed_hash) ... ok
+test_cleanup_absent_row_without_intent_retained (test_hardening.HardenedTests.test_cleanup_absent_row_without_intent_retained) ... ok
+test_cleanup_delete_failure_preserves_evidence (test_hardening.HardenedTests.test_cleanup_delete_failure_preserves_evidence) ... ok
+test_cleanup_missing_delivery_marker (test_hardening.HardenedTests.test_cleanup_missing_delivery_marker) ... ok
+test_cleanup_recovers_lost_delete_ack (test_hardening.HardenedTests.test_cleanup_recovers_lost_delete_ack) ... ok
+test_completion_keeps_slot_until_worker_exits (test_hardening.HardenedTests.test_completion_keeps_slot_until_worker_exits) ... ok
+test_control_waiting_normal_job_does_not_occupy_slot (test_hardening.HardenedTests.test_control_waiting_normal_job_does_not_occupy_slot) ... ok
+test_finish_ack_loss_adopts_db_result (test_hardening.HardenedTests.test_finish_ack_loss_adopts_db_result) ... ok
+test_finish_receipt_disk_failure_not_reexecution (test_hardening.HardenedTests.test_finish_receipt_disk_failure_not_reexecution) ... ok
+test_hash_same_descriptor_and_content (test_hardening.HardenedTests.test_hash_same_descriptor_and_content) ... ok
+test_paged_running_claims (test_hardening.HardenedTests.test_paged_running_claims) ... ok
+test_repeated_network_failure_does_not_repeat_write (test_hardening.HardenedTests.test_repeated_network_failure_does_not_repeat_write) ... ok
+test_retry_capacity_is_bounded (test_hardening.HardenedTests.test_retry_capacity_is_bounded) ... ok
+test_stale_edit_input_and_strict_bools (test_hardening.HardenedTests.test_stale_edit_input_and_strict_bools) ... ok
+test_systemd_query_failure_is_not_missing (test_hardening.HardenedTests.test_systemd_query_failure_is_not_missing) ... ok
+test_unknown_cancel_retried_on_recovery (test_hardening.HardenedTests.test_unknown_cancel_retried_on_recovery) ... ok
+
+----------------------------------------------------------------------
+Ran 33 tests in 4.542s
+
+OK
